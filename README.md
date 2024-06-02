@@ -1,8 +1,6 @@
-# React + Vite
+# Todo list Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template is about a Todo List App.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+App designed to streamline your daily agenda, helping you manage tasks efficiently and boost producity. Whether you are balancing work, personal projects, or everyday errands. In summary, Todo List App is a way to organize your life and achieve your goals.

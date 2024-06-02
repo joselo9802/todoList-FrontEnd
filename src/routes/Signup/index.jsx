@@ -22,52 +22,52 @@ const Signup = () => {
     </div>
   );
 
-  // async function fetchSignup() {
-  //   const userData = {
-  //     names,
-  //     lastNames,
-  //     username,
-  //     password,
-  //   };
+  async function fetchSignup() {
+  const userData = {
+   names,
+  lastNames,
+  username,
+  password,
+  };
 
-  //   const options = {
-  //     headers: {
-  //       accept: "*/*",
-  //       "Content-Type": "application/json",
-  //     },
-  //   };
+    const options = {
+      headers: {
+        accept: "*/*",
+        "Content-Type": "application/json",
+      },
+    };
 
-  //   await axios
-  //     .post(endPoints.auth.signup, userData, options)
-  //     .then((res) => {
-  //       if (res.status === 200) {
-  //         const message = res.data.body.message;
-  //         setTimeout(function () {
-  //           setCreateUser(false);
-  //           setNames("");
-  //           setLastNames("");
-  //           setUsername("");
-  //           setPassword("");
-  //           setMessageSignup(message);
-  //           setStatusSignup(200);
-  //           setIsOpenSignup(true);
-  //         }, 3000);
-  //       }
-  //     })
-  //     .catch((error) => {
-  //       const errorProcess = error.response.data.body.message;
-  //       setMessageSignup(errorProcess);
-  //       setStatusSignup(400);
-  //       setIsOpenSignup(true);
-  //       setCreateUser(false);
-  //       if (!names || !lastNames || !username || !password) {
-  //         setNames(names);
-  //         setLastNames(lastNames);
-  //         setUsername(username);
-  //         setPassword(password);
-  //       }
-  //     });
-  // }
+    await axios
+      .post(endPoints.auth.signup, userData, options)
+      .then((res) => {
+        if (res.status === 200) {
+          const message = res.data.body.message;
+          setTimeout(function () {
+            setCreateUser(false);
+            setNames("");
+            setLastNames("");
+            setUsername("");
+            setPassword("");
+            setMessageSignup(message);
+            setStatusSignup(200);
+            setIsOpenSignup(true);
+          }, 3000);
+        }
+      })
+      .catch((error) => {
+        const errorProcess = error.response.data.body.message;
+        setMessageSignup(errorProcess);
+        setStatusSignup(400);
+        setIsOpenSignup(true);
+        setCreateUser(false);
+        if (!names || !lastNames || !username || !password) {
+          setNames(names);
+          setLastNames(lastNames);
+          setUsername(username);
+          setPassword(password);
+        }
+      });
+  }
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -84,11 +84,10 @@ const Signup = () => {
       setMessageSignup("");
       setCreateUser(true);
       setStatusSignup(400);
-      window.location.href = "/"
     }
 
     //Fetching information
-    //fetchSignup();
+    fetchSignup();
   }
 
   return (

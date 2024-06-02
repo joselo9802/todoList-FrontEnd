@@ -8,7 +8,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const AddTaskSidebar = () => {
-  const { userCategories, setTasks } = useContext(AppContext);
+  const { userCategories, setTasks, setIsOpenTask } = useContext(AppContext);
 
   const [isOpenMessageTask, setIsOpenMessageTask] = useState(false);
   const [messageTask, setMessageTask] = useState(null);

@@ -27,4 +27,26 @@ Todo List App was developed using:
 
 # Screenshoots
 
+**Login**
+![login](https://github.com/joselo9802/todoList-FrontEnd/assets/88758140/fd4f8f18-edcd-401a-a13b-17a07f05a295)
+
+**Home and Today Tasks**
+![homepage](https://github.com/joselo9802/todoList-FrontEnd/assets/88758140/7bfd2dc6-540e-4f82-be87-1df8f3c975d1)
+
+**All tasks List**
+![all tasks list](https://github.com/joselo9802/todoList-FrontEnd/assets/88758140/8e6e0faa-1908-4e83-a6ce-c61e78cfdfb8)
+
+**Add Task's category**
+![tasks categories](https://github.com/joselo9802/todoList-FrontEnd/assets/88758140/b93da8c8-1539-4fdb-8c3c-4c817dbaddce)
+
+**Add Tasks**
+![add task](https://github.com/joselo9802/todoList-FrontEnd/assets/88758140/980036dc-3671-4d0d-88b2-189fa1492d37)
+
+**Account Settings**
+![account settings](https://github.com/joselo9802/todoList-FrontEnd/assets/88758140/219509c0-5c3c-402b-bf93-bc1a8d8b5650)
+
+
+
+
+
 

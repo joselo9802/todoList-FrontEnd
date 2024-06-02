@@ -21,7 +21,7 @@ password: password
 Todo List App was developed using:
 
 - **FrontEnd:** Javascript using React (Vite)
-- **Backend:** Nodejs with Express
+- **Backend:** Nodejs with Express, where, among its design is the login with token authentication using JWT.
 - **CSS:** Tailwind CSS
 - **Database:** MongoDB
 

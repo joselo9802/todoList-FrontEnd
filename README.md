@@ -2,13 +2,6 @@
 
 This template is about a Todo List App. App designed to streamline your daily agenda, helping you manage tasks efficiently and boost producity. Whether you are balancing work, personal projects, or everyday errands. In summary, Todo List App is a way to organize your life and achieve your goals.
 
-# Demo
-
-Go to [todo-list-demo10.netlify.app]() and login with this credentials:
-
-username: admin@email.com</br>
-password: password
-
 # Functional Features
 
 1. **Intuite Interface:** Todo List App offers a clean, user-friendly interface that makes managing the tasks effortless. Quicly add, edit and delete tasks with just a few steps.
